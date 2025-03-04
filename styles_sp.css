@@ -42,6 +42,7 @@ nav a {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -70,14 +71,16 @@ section p {
 
 /* Добавление отступов для ссылок */
 a {
-    text-decoration: none;
     color: #4CAF50;
 }
 
-a:hover {
-    text-decoration: underline;
+header div {
+    background-color: rgb(239, 120, 0);
+    padding: 1px;
+    width: 32.5%;
+    margin: auto;
 }
 
 h1{
-    color:black;
+    color: white;
 }
